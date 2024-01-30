@@ -71,10 +71,10 @@ def get_transcripts(url):
 
 events = get_earnings_dates(url)
 
-#events2 = get_earnings_dates(url2)
+events2 = get_earnings_dates(url2)
 
 
-#events = events + events2
+events = events + events2
 
 transcripts_data=[]
 with st.sidebar:
